@@ -6,7 +6,7 @@ const Bio: React.FC = () => {
   return (
     <div>
       hi, I'm sorry but I'm gonna be lazy for a while.
-      <Link to='/'>Back</Link>
+      <Link to='/zenlife'>Back</Link>
     </div>
   )
 }
