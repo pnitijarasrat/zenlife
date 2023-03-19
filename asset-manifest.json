@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/zenlife/static/css/main.bdefb062.css",
+    "main.js": "/zenlife/static/js/main.097cfdbb.js",
+    "static/js/787.78531a6a.chunk.js": "/zenlife/static/js/787.78531a6a.chunk.js",
+    "static/media/business_profile_pic.png": "/zenlife/static/media/business_profile_pic.b1b1ff98ac4a0c4c68ba.png",
+    "static/media/contact_picture.webp": "/zenlife/static/media/contact_picture.9cb7effa014d24751a26.webp",
+    "static/media/MyLedger.png": "/zenlife/static/media/MyLedger.8a6ee4a04611d2112be7.png",
+    "static/media/tutorFinder.png": "/zenlife/static/media/tutorFinder.6d48847f4c32483d974c.png",
+    "static/media/about_picture.jpeg": "/zenlife/static/media/about_picture.be3f959ca2770d1d095a.jpeg",
+    "static/media/gameboy.png": "/zenlife/static/media/gameboy.1491b2be6417cacef07a.png",
+    "index.html": "/zenlife/index.html",
+    "main.bdefb062.css.map": "/zenlife/static/css/main.bdefb062.css.map",
+    "main.097cfdbb.js.map": "/zenlife/static/js/main.097cfdbb.js.map",
+    "787.78531a6a.chunk.js.map": "/zenlife/static/js/787.78531a6a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdefb062.css",
+    "static/js/main.097cfdbb.js"
+  ]
+}
