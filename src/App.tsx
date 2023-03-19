@@ -11,7 +11,7 @@ function App() {
       <HomePage />
       <Routes>
         <Route path='/zenlife' element={<MainPage />} />
-        <Route path='/zenlife/bio' element={<Bio />} />
+        <Route path='/bio' element={<Bio />} />
       </Routes>
     </BrowserRouter>
   );

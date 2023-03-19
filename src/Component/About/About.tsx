@@ -22,7 +22,7 @@ const About: React.FC = () => {
             I found myself enjoy building and developing website so that I kept getting good.
           </p>
         </div>
-        <Link to='/zenlife/bio'>
+        <Link to='/bio'>
           <button data-aos="fade-up">Read More</button>
         </Link>
       </div>
