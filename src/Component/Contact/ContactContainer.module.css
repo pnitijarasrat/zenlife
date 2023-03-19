@@ -1,0 +1,13 @@
+@import '../var.css';
+
+.ContactContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ContactContainer p {
+  position: relative;
+  left: 20px;
+  font-size: var(--desc-font);
+}

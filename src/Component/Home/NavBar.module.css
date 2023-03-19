@@ -1,0 +1,32 @@
+@import '../var.css';
+
+.NavBar {
+  width: 445px;
+  height: 50px;
+  font-size: var(--nav-font);
+  font-weight: var(--font-bold);
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: white;
+  top: 0;
+}
+
+.NavBar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.NavBar ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 111.25px;
+  transition: 0.4s;
+}
+
+.NavBar ul li:hover {
+  color: white;
+  background-color: black;
+}

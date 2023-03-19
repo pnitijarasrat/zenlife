@@ -1,0 +1,25 @@
+@import '../var.css';
+
+.Contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 600px;
+  align-items: center;
+}
+
+.Contact .contactContent {
+  width: min(450px, calc(1920px * 45000/1920));
+}
+
+.Contact .contactContent a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Contact img {
+  position: relative;
+  height: 400px;
+  width: 330px;
+  box-shadow: var(--black-shadow);
+}

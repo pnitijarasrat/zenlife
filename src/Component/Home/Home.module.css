@@ -1,0 +1,64 @@
+@import './../var.css';
+
+.HomePage {
+  position: relative;
+  height: 750px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomePage .imageContainer img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: var(--black-shadow);
+}
+
+.HomePage h1 {
+  margin: 30px 0 15px;
+  font-size: var(--header-font);
+}
+
+.HomePage p {
+  margin: 0;
+  width: 445px;
+  height: 210px;
+  font-size: var(--desc-font);
+}
+
+.HomePage .homeContent {
+  position: relative;
+  left: 45px;
+}
+
+.HomePage .x1 {
+  position: absolute;
+  top: 600px;
+  left: 80px;
+  opacity: var(--x-sign-opacity);
+}
+
+.HomePage .x2 {
+  position: absolute;
+  top: 485px;
+  left: 226px;
+  opacity: var(--x-sign-opacity);
+}
+
+.HomePage .x3 {
+  position: absolute;
+  top: 572px;
+  left: 516px;
+  opacity: var(--x-sign-opacity);
+}
+
+.HomePage .x4 {
+  position: absolute;
+  top: 459px;
+  left: 833px;
+  opacity: var(--x-sign-opacity);
+  z-index: -1;
+}
