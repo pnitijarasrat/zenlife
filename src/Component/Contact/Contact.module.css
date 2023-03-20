@@ -12,6 +12,10 @@
   width: min(450px, calc(1920px * 45000/1920));
 }
 
+.Contact .contactContent p {
+  font-size: var(--desc-font);
+}
+
 .Contact .contactContent a {
   text-decoration: none;
   color: inherit;
@@ -22,4 +26,35 @@
   height: 400px;
   width: 330px;
   box-shadow: var(--black-shadow);
+}
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }
+
+  .Contact .contactContent {
+    width: 250px;
+  }
+
+  .Contact .contactContent a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .Contact img {
+    position: relative;
+    height: 300px;
+    width: 250px;
+    box-shadow: var(--black-shadow);
+    margin-top: 100px;
+  }
+
+  .Contact .contactContent p {
+    font-size: var(--desc-phone-font);
+  }
 }
