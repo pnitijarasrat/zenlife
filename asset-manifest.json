@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zenlife/static/css/main.bdefb062.css",
+    "main.css": "/zenlife/static/css/main.3dec9b3b.css",
     "main.js": "/zenlife/static/js/main.4f18ff2e.js",
     "static/js/787.78531a6a.chunk.js": "/zenlife/static/js/787.78531a6a.chunk.js",
     "static/media/business_profile_pic.png": "/zenlife/static/media/business_profile_pic.b1b1ff98ac4a0c4c68ba.png",
@@ -10,12 +10,12 @@
     "static/media/about_picture.jpeg": "/zenlife/static/media/about_picture.be3f959ca2770d1d095a.jpeg",
     "static/media/gameboy.png": "/zenlife/static/media/gameboy.1491b2be6417cacef07a.png",
     "index.html": "/zenlife/index.html",
-    "main.bdefb062.css.map": "/zenlife/static/css/main.bdefb062.css.map",
+    "main.3dec9b3b.css.map": "/zenlife/static/css/main.3dec9b3b.css.map",
     "main.4f18ff2e.js.map": "/zenlife/static/js/main.4f18ff2e.js.map",
     "787.78531a6a.chunk.js.map": "/zenlife/static/js/787.78531a6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdefb062.css",
+    "static/css/main.3dec9b3b.css",
     "static/js/main.4f18ff2e.js"
   ]
 }
