@@ -35,12 +35,12 @@ const HomePage: React.FC = () => {
     <div className={classes.HomePage}>
       {showHome &&
         <>
-          <div className={classes.imageContainer} data-aos="fade-right">
+          <div className={classes.imageContainer} data-aos="fade-down">
             <img src={PP} alt="profile_picture" />
           </div>
-          <div className={classes.homeContent} data-aos="fade-left">
+          <div className={classes.homeContent}>
             <NavBar />
-            <div>
+            <div data-aos="fade-left">
               <h1>Welcome</h1>
               <p>
                 A passionate industrial engineering student with enthusiastic, hard-working, and discipline

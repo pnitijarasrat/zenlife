@@ -17,11 +17,11 @@ const ProjectContainer: React.FC<ProjectContainerProp> = ({ imgSrc, desc, alt, d
   console.log(dataAos)
 
   return (
-    <div className={classes.ProjectContainer} data-aos={dataAos} >
-      <div className={classes.imgContainer}>
+    <div className={classes.ProjectContainer} data-aos={dataAos}>
+      <div className={classes.imgContainer}  >
         <img src={imgSrc} alt={alt} height={"300px"} />
       </div>
-      <p>{desc}</p>
+      <p  >{desc}</p>
     </div >
   )
 

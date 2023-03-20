@@ -34,7 +34,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 750px;
+    overflow-x: hidden;
+    width: 100vw;
   }
 
   .Contact .contactContent {
@@ -51,7 +53,7 @@
     height: 300px;
     width: 250px;
     box-shadow: var(--black-shadow);
-    margin-top: 100px;
+    margin: 50px;
   }
 
   .Contact .contactContent p {
