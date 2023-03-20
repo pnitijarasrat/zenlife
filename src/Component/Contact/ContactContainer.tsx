@@ -1,5 +1,8 @@
 import React from "react";
 import classes from './ContactContainer.module.css'
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 interface ContactProps {
   logo: React.ReactNode
@@ -7,9 +10,10 @@ interface ContactProps {
 }
 
 const ContactContainer: React.FC<ContactProps> = ({ logo, info }) => {
+  useEffect(() => { Aos.init() }, [])
 
   return (
-    <div className={classes.ContactContainer}>
+    <div className={classes.ContactContainer} data-aos="fade-up">
       <div>
         {logo}
       </div>
