@@ -50,7 +50,7 @@ const HomePage: React.FC = () => {
           </div>
         </>
       }
-      {showX &&
+      {/* {showX &&
         <>
           <SlideIn className={classes.x1}>
             <Icon src={xSign} alt="x_sign" size={90} />
@@ -64,7 +64,7 @@ const HomePage: React.FC = () => {
           <SlideIn className={classes.x4}>
             <Icon src={circleSign} alt="x_sign" size={180} />
           </SlideIn>
-        </>}
+        </>} */}
     </div >
   )
 
